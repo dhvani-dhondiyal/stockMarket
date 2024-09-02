@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #010129;
+}
+
+h1{
+    color:white;
+    text-align: center;
+}
+#list, #charts, #details {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#list {
+    float: left;
+    width: 20%;
+    display: flex;
+}
+
+#charts {
+    float: left;
+    width: 55%;
+    background: #010145;
+    height: 500px;
+}
+
+#charts button {
+    background: #030383;
+    border-radius: 5px;
+    color:white;
+    border:0;
+    padding:5px;
+    margin: 20px;
+}
+#details {
+    float: left;
+    width: 55%;
+}
+
+#details p {
+    color: white;
+}
+#details span {
+    padding: 10px;
+}
+.stock-item{
+    background: #010145;
+    border-radius: 3px;
+    color: white;
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    width: 70px;
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+    cursor:pointer;
+}
+.stock-item:hover{
+    background: #010129;
+}
+.stock-info-ul{
+    float: left;
+    color: white;
+    list-style: none;
+    margin-left: 5px;
+    padding: 0;
+}
+
+.stock-info-ul li {
+    padding: 5px;
+    margin: 12px;
+    width: 120px;
+}
+
+.stock-info-ul li span {
+    margin-left: 20px;
+}
+.red{
+    color:red;
+}
+.green{
+    color:green;
+}
+
+#details h2{
+    color:white;
+}
+button {
+    cursor: pointer;
+}

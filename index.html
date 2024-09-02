@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Stock Market Analysis</h1>
+    <div id="charts">
+        <canvas id="stock-chart"></canvas>
+        
+    </div>
+    <div id="list"></div>
+    <div id="details"></div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts/fetchData.js" type="module"></script>
+    <script src="scripts/renderList.js" type="module"></script>
+    <script src="scripts/renderChart.js" type="module"></script>
+    <script src="scripts/renderDetails.js" type="module"></script>
+</body>
+</html>
